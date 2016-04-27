@@ -1,10 +1,10 @@
-Наборы правил для .htaccess
+РќР°Р±РѕСЂ РїСЂР°РІРёР» РґР»СЏ .htaccess
 
-# использование кеша браузеров
+# РёСЃРїРѕР»СЊР·РѕРІР°РЅРёРµ РєРµС€Р° Р±СЂР°СѓР·РµСЂРѕРІ
 FileETag MTime Size
 <ifmodule mod_expires.c>
-<filesmatch “.(jpg|jpeg|gif|png|ico|css|js)$”>
+<filesmatch вЂњ.(jpg|jpeg|gif|png|ico|css|js)$вЂќ>
 ExpiresActive on
-ExpiresDefault “access plus 1 year”
+ExpiresDefault вЂњaccess plus 1 yearвЂќ
 </filesmatch>
 </ifmodule>
